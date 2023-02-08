@@ -14,11 +14,9 @@ import Sidebar from "./components/sidebar/Sidebar.vue";
         </button>
       </div>
     </div>
-
-    <Sidebar position-top="0px" />
-
     <!-- <b-button variant="outline-primary">Button</b-button> -->
     </div>
+    <Sidebar position-top="50%" />
 
 </template>
 
