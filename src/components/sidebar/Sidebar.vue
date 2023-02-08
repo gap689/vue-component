@@ -100,7 +100,6 @@ compatConfig: { MODE: 3 }
 <style scoped>
 /* flex absolute right-0 bottom-10 overflow-hidden */
 .box{
-    --var-translate-x: 300px;
     display: flex;
     position: absolute;
     width: fit-content;
@@ -118,12 +117,12 @@ compatConfig: { MODE: 3 }
 
 .translate-origin{
     transition: 0.8s ease-out;
-    transform: translate(320px);
+    transform: translate(280px);
 }
 
 /* flex relative text-gray-600 h-fit  transition ease-out duration-1000 mt-10 */
 .movable-objects{
-    --var-translate-x: 300px; /* can change according the width of the container */
+    --var-translate-x: 280px; /* can change according the width of the container */
     display: flex;
     position: relative;
     color: rgb(75 85 99); /* this color will be props */
@@ -197,7 +196,7 @@ compatConfig: { MODE: 3 }
 .content-wrapper{
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 280px;
     background-color: rgb(229 231 235); /* color change */
     color: black;
     position: relative;
